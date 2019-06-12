@@ -9,12 +9,14 @@ const divStyle = {
 const h3Style = {
     color: 'black',
     fontFamily: "'Work Sans', sans-serif",
-    fontSize: '20px'
+    fontSize: '20px',
+    margin: '1% 40%',
 }
 
 const h1Style = {
     fontFamily: "'Montserrat', sans-serif",
-    color: 'black'
+    color: 'black',
+    fontSize: '50px',
 }
 
 const linkStyle = {

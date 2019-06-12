@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import ResponsiveNavbar from '../components/Navbar/index';
 
-class Portfolio extends Component {
+class Resume extends Component {
     render() {
-        return (
+        return(
             <div>
-            <ResponsiveNavbar />
+                <ResponsiveNavbar />
             </div>
-        );
+        )
     }
 }
 
-
-export default Portfolio;
+export default Resume;

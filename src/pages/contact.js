@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import ResponsiveNavbar from '../components/Navbar/index';
 
+
 class Contact extends Component {
     render() {
-        return (
+        return(
             <div>
-            <ResponsiveNavbar />
+                <ResponsiveNavbar />
             </div>
-        );
+        )
     }
 }
-
 
 export default Contact;
