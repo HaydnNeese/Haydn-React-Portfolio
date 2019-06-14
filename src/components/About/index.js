@@ -1,13 +1,24 @@
 import React from 'react';
 
-const paragraphStyle = {
-    margin: '3% 25%',
+const divStyle = {
+    margin: '3% 15%',
+    padding: '3%',
+    fontSize: '120%',
+    border: 'solid black 1px',
+    fontFamily: "'Open Sans Condensed', sans-serif",
+    marginBottom: '10%',
+}
+const headerStyle = {
+    fontSize: '200%',
+    fontWeight: 'bold',
+    textAlign: 'center',
 }
 
 const Paragraph = () => {
     return(
-        <div>
-            <p style={paragraphStyle}>
+        <div style={divStyle}>
+            <h1 style={headerStyle}>About Me</h1>
+            <p >
                 I started my journey a little different than your typical web developer. I was working as a personal trainer, which allowed me to use my college degree
                 every day while I helped my clients with their health and wellness goals. I met two clients that were web developers and trained them each for a year. Throughout
                 the months of talking to them about life and their careers I discovered that I was not being my best me and I was not pursuing my calling. 
