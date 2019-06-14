@@ -1,7 +1,9 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+
 const navStyle = {
   fontFamily: "'Work Sans', sans-serif",
+  
 }
 
 const ResponsiveNavbar = () => {
